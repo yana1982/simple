@@ -36,6 +36,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
         }
 .contact-list-link:hover,
 .contact-list-link:focus
@@ -64,6 +65,9 @@ body {
         letter-spacing: 0.04em;
         color: #fff;
 }
+.order-service-btn {
+    background-color: #4D5AE5;
+}
 .order-service-btn:hover,
 .order-service-btn:focus
 {
@@ -77,6 +81,7 @@ background-color: #404BBF
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color: #2e2f42;
        }
 .functional-list-text {
         font-size: 16px;
@@ -97,6 +102,7 @@ background-color: #404BBF
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
+        color: #2e2f42;
         }
 .team-list {
     background-color: #FFFFFF;
@@ -146,6 +152,9 @@ background-color: #404BBF
 
 /* =======Page footer======= */
 .page-footer {background: #2e2f42;}
+.color-white {
+    color: #f4f4fd;
+}
 .page-footer-text {
         font-size: 16px;
         line-height: 1.5;
