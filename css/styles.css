@@ -74,7 +74,7 @@ margin-right: 76px;
     display: block;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -91,7 +91,10 @@ margin-right: 76px;
         }
 .contact-list-link:hover,
 .contact-list-link:focus
-{color: #404bbf;}
+{
+    color: #404bbf;
+}
+
 .contact-block {
     font-style: normal;
 }
