@@ -48,19 +48,19 @@ body {
     display: flex;
     align-items: center;
 }
-.menu {
-    display: flex;
-    gap: 40px;
-    margin-right: 332px;
-}
-
 .contact-list {
     display: flex;
     gap: 40px;
 }
-.menu-item {
+.menu-link {
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -72,15 +72,12 @@ body {
 margin-right: 76px;
 
 }
+.menu {
+    display: flex;
+    gap: 40px;
+    }
 .color-black {color: #2e2f42;}
 
-.menu-link {
-    display: block;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;}
 .menu-link:hover,
 .menu-link:focus {color:#404bbf;}
 
