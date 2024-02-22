@@ -72,6 +72,14 @@ body {
 margin-right: 76px;
 
 }
+.menu-link-heder::after {
+display: block;
+content: "";
+border-radius: 2px;
+width: 48px;
+height: 4px;
+background: #404bbf;
+}
 .menu {
     display: flex;
     gap: 40px;
@@ -107,6 +115,14 @@ margin-right: 76px;
 }
 .hero {
     background: #2e2f42;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .hero-title {
         max-width: 496px;
