@@ -261,6 +261,22 @@ background-color: #404BBF
         letter-spacing: 0.02em;
         text-align: center;
         }
+.social-list {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}  
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+}
 /* =======/Team Section======= */
 
 /* =======Portfolio Section======= */
