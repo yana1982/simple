@@ -295,8 +295,9 @@ background-color: #404BBF;
     justify-content: center;
     align-items: center;
     margin-top: 8px;
-    gap: 24px;
+    
 }  
+
 .social-list-link {
     display: flex;
     justify-content: center;
