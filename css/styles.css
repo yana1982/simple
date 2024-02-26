@@ -292,8 +292,10 @@ background-color: #404BBF;
 .social-list {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
-       
+    margin-top: 8px;
+    
 }  
 
 .social-list-link {
@@ -445,7 +447,10 @@ color: #f4f4fd;
     align-items: stretch;
 }
 
-.social-list {
+.social-list-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
 }
 .social-list-link-footer {
