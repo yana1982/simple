@@ -295,6 +295,7 @@ background-color: #404BBF;
     justify-content: center;
     align-items: center;
     margin-top: 8px;
+    gap: 24px;
 }  
 .social-list-link {
     display: flex;
@@ -371,8 +372,16 @@ padding-bottom: 164px;
 padding-left: 32px;
 padding-right: 32px;
 background: #4d5ae5;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: #f4f4fd;
+
 }
+.portfolio-list-item:hover .text-app {
+    transform: translateY(0%);
+}  
 .portfolio-image:hover .app-design-concepts {
     transform: translateY(0%);
     
@@ -451,7 +460,7 @@ color: #f4f4fd;
     height: 40px;
     gap: 16px;
     border-radius: 50%;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     background-color: #4d5ae5;
     fill: #fff;
 }
