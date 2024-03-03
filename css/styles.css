@@ -610,7 +610,7 @@ color: #f4f4fd;
 .review-form {
 }
 .review-form-field-wrapper {
-        margin-bottom: 16px;
+        margin-bottom: 8px;
 }
 .review-form-wrapper {
     position: relative;
@@ -736,6 +736,7 @@ color: #8e8f99;
     
     border: 1px solid #4d5ae5;
     border-radius: 4px;
+    border: none;
     
 }
 
