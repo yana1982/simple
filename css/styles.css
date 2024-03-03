@@ -476,6 +476,21 @@ color: #f4f4fd;
 }
 /* =======/Page footer======= */
 
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.text-subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 .form {
     display: flex;
     justify-content: flex-end;
@@ -496,38 +511,38 @@ color: #f4f4fd;
 .subscribe-form-input {
     width: 264px;
     height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     padding-left: 16px;
-    margin-top: 8px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 4px 0px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    border-image: initial;
     border-radius: 4px;
-    background: rgb(46, 47, 66);
+    color: #ffffff;
 }
+
+
 .subscribe-btn {
-    padding-top: 8px;
-    padding-right: 64px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    position: relative;
-    font-weight: 500;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background: rgb(77, 90, 229);
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
     border-radius: 4px;
 }
+
 .footer-icon-frame {
     fill: rgb(255, 255, 255);
-    position: absolute;
-    top: 8px;
-    right: 24px;
+    margin-left: 16px;
 }
 
 /* =======Modal window styles======= */
@@ -650,7 +665,9 @@ color: #8e8f99;
     fill: #4D5AE5;
 }
 
-
+.review-form-field-wrapper-second {
+    margin-bottom: 16px;
+}
 .review-form-checkbox-wrapper {
     margin-top: 16px;
     margin-bottom: 24px;
